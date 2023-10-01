@@ -1,0 +1,912 @@
+Using pre-set license
+Built from '2022.1/release' branch; Version is '2022.1.21f1 (9ac1ff5ca45b) revision 10142207'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 32533 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/AlexA/Documents/School/Unity/Mean One/Mean One
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+60318
+Successfully changed project path to: C:/Users/AlexA/Documents/School/Unity/Mean One/Mean One
+C:/Users/AlexA/Documents/School/Unity/Mean One/Mean One
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 49.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.21f1 (9ac1ff5ca45b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/AlexA/Documents/School/Unity/Mean One/Mean One/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006468 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 52.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.668 seconds
+Domain Reload Profiling:
+	ReloadAssembly (668ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (471ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (110ms)
+				TypeCache.Initialize (109ms)
+					TypeCache.ScanAssembly (108ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.881 seconds
+Domain Reload Profiling:
+	ReloadAssembly (882ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (659ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+				TypeCache.Initialize (181ms)
+					TypeCache.ScanAssembly (178ms)
+				ResolveRequiredComponents (3ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (125.1 KB). Loaded Objects now: 2555.
+Memory consumption went from 343.1 MB to 343.0 MB.
+Total: 2.456200 ms (FindLiveObjects: 0.159900 ms CreateObjectMapping: 0.085400 ms MarkObjects: 2.095200 ms  DeleteObjects: 0.114600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13552.506014 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes
+  artifactKey: Guid(9e991436548381243bad3f469c0ac4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes using Guid(9e991436548381243bad3f469c0ac4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cde0b6bff2912f41a68aa4820b26428') in 0.007182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.473834 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Scenes
+  artifactKey: Guid(1e90ea3e242c6f145a8b313c76a732e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Scenes using Guid(1e90ea3e242c6f145a8b313c76a732e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee12bcb6a25b47b3f8540b6f0cb4b00') in 0.005736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.075808 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Scenes/Floor.mat
+  artifactKey: Guid(bca819c7880d78245b09885ed9230437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Scenes/Floor.mat using Guid(bca819c7880d78245b09885ed9230437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd284f39f548049f503834bc241a0563e') in 0.140398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.441410 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Scenes/Demo
+  artifactKey: Guid(192beffdf83e15a4890225c77e0cec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Scenes/Demo using Guid(192beffdf83e15a4890225c77e0cec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77ffdb0e529f4a826dcd3e7c24cacea') in 0.007841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.045536 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001
+  artifactKey: Guid(a7864a75bae0b2a4d9ab6db73266bb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001 using Guid(a7864a75bae0b2a4d9ab6db73266bb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe487227917f9f1b5771c095f93dc49') in 0.005581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050579 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Door001.FBX
+  artifactKey: Guid(5518466ac73c3b94e8f1765c6c455927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Door001.FBX using Guid(5518466ac73c3b94e8f1765c6c455927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c46aa71799bfaa277977e0a22e7c0cd') in 0.060002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.894022 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials
+  artifactKey: Guid(950e06bd76c41c146acf29dd9aae8f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials using Guid(950e06bd76c41c146acf29dd9aae8f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2662c1336b9c2fa31fcb70bad9a4db3a') in 0.006622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.075744 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/13 - Default.mat
+  artifactKey: Guid(66678d012165da245a902fc7a1e5afc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/13 - Default.mat using Guid(66678d012165da245a902fc7a1e5afc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22315da0903373d37157f18f7465c66f') in 0.014376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V3.mat
+  artifactKey: Guid(1c826cebdd68dc546b6889791583ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V3.mat using Guid(1c826cebdd68dc546b6889791583ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36703898c0ee7ab576363d4b66d3e15c') in 0.265807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.787363 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/White.mat
+  artifactKey: Guid(fec584b63ac9575409c19c03b5dd4592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/White.mat using Guid(fec584b63ac9575409c19c03b5dd4592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c625204f56ee352edd0ccc1557002f5') in 0.024708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.326295 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Bed_08.fbx
+  artifactKey: Guid(c414c781fde0fa147b1dcb69a217e6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Bed_08.fbx using Guid(c414c781fde0fa147b1dcb69a217e6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722782a4ad75e86e7e04978be854b23a') in 0.049424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PandazoleHome/Models/Prop_BuildingBlockToy_07.fbx
+  artifactKey: Guid(076ec2b7ab307d6468614b1f0e1cae47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_BuildingBlockToy_07.fbx using Guid(076ec2b7ab307d6468614b1f0e1cae47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9040dbf51bc8dafe1e239849fa1383d1') in 0.029688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Desk_07.fbx
+  artifactKey: Guid(284000361760837478395cab2cf29699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Desk_07.fbx using Guid(284000361760837478395cab2cf29699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3483df79adb44c15b2ecac5a8674bc45') in 0.035723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Chair_04.fbx
+  artifactKey: Guid(0de699b60db44be49b073c1301df23d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Chair_04.fbx using Guid(0de699b60db44be49b073c1301df23d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a219f6dea1e388dd0150f51f081d0ab') in 0.036844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Console_04.fbx
+  artifactKey: Guid(b3e91bc7d7f58f44099a3beee372b594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Console_04.fbx using Guid(b3e91bc7d7f58f44099a3beee372b594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aecb5400d8faded8aa707eb80d5b411') in 0.034582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PandazoleHome/Models/Prop_BuildingBlockToy_04.fbx
+  artifactKey: Guid(30fd36cfd39bc6e4bbbb66a97de489e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_BuildingBlockToy_04.fbx using Guid(30fd36cfd39bc6e4bbbb66a97de489e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08add6d4707558431200369cd0535658') in 0.018156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Desk_04.fbx
+  artifactKey: Guid(17bc306676a8b214fa44abf10df0c310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Desk_04.fbx using Guid(17bc306676a8b214fa44abf10df0c310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3f7fb4ad4c7752265209abc3cde587') in 0.019465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Cabinet_03.fbx
+  artifactKey: Guid(39530e7cffaf7f9419ab5640cc7498cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Cabinet_03.fbx using Guid(39530e7cffaf7f9419ab5640cc7498cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398cdb5d254055fb5c774d70da4b7437') in 0.017624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PandazoleHome/Models/Prop_BuildingBlockToy_06.fbx
+  artifactKey: Guid(230a9b4fcb8e7854ca3e5d683ee3dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_BuildingBlockToy_06.fbx using Guid(230a9b4fcb8e7854ca3e5d683ee3dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218bcfb182985ab2334c656f24dee5d2') in 0.016737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Desk_06.fbx
+  artifactKey: Guid(684e7553980e7d64d8c1b5178f777f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Desk_06.fbx using Guid(684e7553980e7d64d8c1b5178f777f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ece9b7ae4b24cff486b83c116288fd') in 0.016415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Chest_But.fbx
+  artifactKey: Guid(5e63de4293b1ba949a9760c21f9f8e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Chest_But.fbx using Guid(5e63de4293b1ba949a9760c21f9f8e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4961cd461039fea3cce6146f7715d7bb') in 0.025580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PandazoleHome/Models/Prop_BuildingBlockToy_08.fbx
+  artifactKey: Guid(0e39180b0387fdb4388bc6213879fef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_BuildingBlockToy_08.fbx using Guid(0e39180b0387fdb4388bc6213879fef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2de2d626df564181af2e78d896bb92') in 0.017382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Desk_05.fbx
+  artifactKey: Guid(9dedbbc4d4441fc44b4fc1dbe84adb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Desk_05.fbx using Guid(9dedbbc4d4441fc44b4fc1dbe84adb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4174330866a4c78c50feda66d5146f87') in 0.018792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Book_04.fbx
+  artifactKey: Guid(027784968f9fe244782952e5d874349c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Book_04.fbx using Guid(027784968f9fe244782952e5d874349c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7c004b72cf4d00ebbfa56e082b8a29') in 0.016390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Chair_05.fbx
+  artifactKey: Guid(2c498905c27355d459377aa695663458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Chair_05.fbx using Guid(2c498905c27355d459377aa695663458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424c03058e4a0ac2c26c198455b8ae48') in 0.016597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Console_02.fbx
+  artifactKey: Guid(42cece374c56adb4f8293c668a0188d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Console_02.fbx using Guid(42cece374c56adb4f8293c668a0188d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebde410da1d25fd758595cf43d49dd9') in 0.018045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Cabinet_06.fbx
+  artifactKey: Guid(9240e018f245f5443b2977e6ff80abf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Cabinet_06.fbx using Guid(9240e018f245f5443b2977e6ff80abf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c18a47e80112e0caf451865cbcd7d0') in 0.035543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PandazoleHome/Materials/Panda Mat.mat
+  artifactKey: Guid(293fedf4ae72d0f42a326f700888b9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Materials/Panda Mat.mat using Guid(293fedf4ae72d0f42a326f700888b9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a545bbf7a378005249f85943292ef56') in 0.014557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 235.730508 seconds.
+  path: Assets/Scenes/glass blue.mat
+  artifactKey: Guid(4eff38970f2fd174dad5b00f0f0b2094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/glass blue.mat using Guid(4eff38970f2fd174dad5b00f0f0b2094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f950df920d7dd1a7e11aaf8796082fc9') in 0.011398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 263.531823 seconds.
+  path: Assets/Scenes/New Material.mat
+  artifactKey: Guid(13398acb2da921e4a836d737056357e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Material.mat using Guid(13398acb2da921e4a836d737056357e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10255572a90a8c1971b8a0b920bf88fc') in 0.011098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 240.374219 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Desk_08.fbx
+  artifactKey: Guid(20f1400c28d175f4984923e4d80f4023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Desk_08.fbx using Guid(20f1400c28d175f4984923e4d80f4023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6642c907fea6ba823582ae6167ffa2b6') in 0.024329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PandazoleHome/Models/Prop_KidsChair.fbx
+  artifactKey: Guid(56bb75072a0700a4284e584b5d715656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_KidsChair.fbx using Guid(56bb75072a0700a4284e584b5d715656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22da300af788c1554cff113f44eec914') in 0.034017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PandazoleHome/Models/Prop_GroundBase_01.fbx
+  artifactKey: Guid(f0962c9e32d087c41911aecf34f219b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_GroundBase_01.fbx using Guid(f0962c9e32d087c41911aecf34f219b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4ac931c647357a36fe5db8c5469248') in 0.025889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PandazoleHome/Models/Prop_HomeTheater_03.fbx
+  artifactKey: Guid(46f304d64efc4e346845f57add554d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_HomeTheater_03.fbx using Guid(46f304d64efc4e346845f57add554d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdda3241c22cbecf7ca40de0a0e76a9e') in 0.022565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Homeplant_06.fbx
+  artifactKey: Guid(3517496b94b53614fa565fd88bb4ee1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Homeplant_06.fbx using Guid(3517496b94b53614fa565fd88bb4ee1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abe9c9a94f899581bffd180f68f186f') in 0.019000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/PandazoleHome/Models/Prop_KidsClock.fbx
+  artifactKey: Guid(2c3c5b15696b1934f8713060fb974029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_KidsClock.fbx using Guid(2c3c5b15696b1934f8713060fb974029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9eb4ce7379ba5d714adf3cfb64f2dce') in 0.017345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Homeplant_04.fbx
+  artifactKey: Guid(99007781dc331ce4181eca5de486b13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Homeplant_04.fbx using Guid(99007781dc331ce4181eca5de486b13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca835f7b7389bfc679848489122c49c') in 0.016168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Homeplant_07.fbx
+  artifactKey: Guid(0f784f6c93fb014439c84d1d8a06c861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Homeplant_07.fbx using Guid(0f784f6c93fb014439c84d1d8a06c861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2b20064f22326fecc0ce132925620d') in 0.017231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Homeplant_10.fbx
+  artifactKey: Guid(0a5292c6d1ed2bb4d94690ce541c48ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Homeplant_10.fbx using Guid(0a5292c6d1ed2bb4d94690ce541c48ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061fba01ec61cb37882c8d915284f596') in 0.019689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Faucet_05.fbx
+  artifactKey: Guid(5e7c5bb52b187b64b8066581127e3b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Faucet_05.fbx using Guid(5e7c5bb52b187b64b8066581127e3b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4841e83d375c31e983262ecc72ea7a22') in 0.018685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PandazoleHome/Models/Prop_GenericPillow_01.fbx
+  artifactKey: Guid(5ca4858b71c0e8046b28378e5ad53b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_GenericPillow_01.fbx using Guid(5ca4858b71c0e8046b28378e5ad53b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5024efd9d8f66a97088f24c111a5aa30') in 0.017837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PandazoleHome/Models/Prop_KidsCube_B.fbx
+  artifactKey: Guid(b669a4f1fd1543648b4aa8f69b776f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_KidsCube_B.fbx using Guid(b669a4f1fd1543648b4aa8f69b776f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a7995bf88b991abf991b8fee979b71') in 0.017372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Faucet_04.fbx
+  artifactKey: Guid(0ff3e183adcffcb45a951511bff7ce25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Faucet_04.fbx using Guid(0ff3e183adcffcb45a951511bff7ce25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8f9888de6db0082ea9b4d19da88456') in 0.016879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PandazoleHome/Models/Prop_HomeTheater_04.fbx
+  artifactKey: Guid(171449eb26dcb054b970a3587d2dc37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_HomeTheater_04.fbx using Guid(171449eb26dcb054b970a3587d2dc37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3888c15774fbb772c8c7ca15129d3a43') in 0.016527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PandazoleHome/Models/Prop_GenericPillow_02.fbx
+  artifactKey: Guid(38f848a65c39a354087d399dade00a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_GenericPillow_02.fbx using Guid(38f848a65c39a354087d399dade00a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721d68aff3d4de88c8ef05a137aa8b44') in 0.014798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PandazoleHome/Models/Prop_HomeLamp_04.fbx
+  artifactKey: Guid(97b07afb9121c704faeeb1e3a09f68be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_HomeLamp_04.fbx using Guid(97b07afb9121c704faeeb1e3a09f68be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3c9509e992888b167fed347d88b4c4') in 0.016159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PandazoleHome/Models/Prop_KidsCube_A.fbx
+  artifactKey: Guid(64aa61cc2261f6a45a019068d2a68736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_KidsCube_A.fbx using Guid(64aa61cc2261f6a45a019068d2a68736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7da19eb061dba921756c0d7a72aba83') in 0.030067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PandazoleHome/Models/Prop_GroundBase_08.fbx
+  artifactKey: Guid(65755412cdaf67f44b871f9032d707af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_GroundBase_08.fbx using Guid(65755412cdaf67f44b871f9032d707af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4966e7aa3392c6e610e642a7539dcee6') in 0.017656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PandazoleHome/Models/Prop_HomeLamp_03.fbx
+  artifactKey: Guid(3da72a7f70cd6f742bb0d0dc81e0ed26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_HomeLamp_03.fbx using Guid(3da72a7f70cd6f742bb0d0dc81e0ed26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d67f79d516787b809c3d15973dd347') in 0.016135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PandazoleHome/Models/Prop_HomeTheater_01.fbx
+  artifactKey: Guid(c88f3403cd5c2c34d8c56f3bae446626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_HomeTheater_01.fbx using Guid(c88f3403cd5c2c34d8c56f3bae446626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab6fba0145c360c3b50a3235d63ada5') in 0.017397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Faucet_07.fbx
+  artifactKey: Guid(8ca579963f25ffb4d97804b562b4e6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Faucet_07.fbx using Guid(8ca579963f25ffb4d97804b562b4e6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603a3668759e3fd02736216663a11ef4') in 0.015270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PandazoleHome/Models/Prop_HomeLamp_02.fbx
+  artifactKey: Guid(b8867b70a027fa3409abe8e6e5ba6ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_HomeLamp_02.fbx using Guid(b8867b70a027fa3409abe8e6e5ba6ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69a2eb5452182558f04bc28698d2464') in 0.016325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PandazoleHome/Models/Prop_GroundBase_02.fbx
+  artifactKey: Guid(07f105bbe3e34d540a53a81c40a71a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_GroundBase_02.fbx using Guid(07f105bbe3e34d540a53a81c40a71a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab09da81898a62fe1f89e3687d64095') in 0.015743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PandazoleHome/Models/Prop_KidsCube_E.fbx
+  artifactKey: Guid(7a57c91007600ea459f9b3ffae141d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_KidsCube_E.fbx using Guid(7a57c91007600ea459f9b3ffae141d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da5e8cf3cb3af57bdcbd0a7ae971e06') in 0.015173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PandazoleHome/Models/Prop_KidsCube_C.fbx
+  artifactKey: Guid(5d40cf90ec4fd7c4b85d2946e18b6916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_KidsCube_C.fbx using Guid(5d40cf90ec4fd7c4b85d2946e18b6916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff718df455a9c175f57f69cc22e11511') in 0.015518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PandazoleHome/Models/Prop_HomeSpeaker_02.fbx
+  artifactKey: Guid(369abc8f0fbfe6b4c8c30ce741531e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_HomeSpeaker_02.fbx using Guid(369abc8f0fbfe6b4c8c30ce741531e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea31a8cf9125d69e12c059dad4ca145') in 0.014652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Homeplant_11.fbx
+  artifactKey: Guid(8b158daf0a50279449d1fee9291fdd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Homeplant_11.fbx using Guid(8b158daf0a50279449d1fee9291fdd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d71e2ffdd9130026a429a0d39c1731') in 0.015904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Homeplant_05.fbx
+  artifactKey: Guid(61f1dd4536f487349be2285d4d8ba496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Homeplant_05.fbx using Guid(61f1dd4536f487349be2285d4d8ba496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff4ae511c7ea17fdb605907dd3c395c') in 0.015567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PandazoleHome/Models/Prop_GroundBase_03.fbx
+  artifactKey: Guid(ce4a05df6d11208429aa1f2d4cef3f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_GroundBase_03.fbx using Guid(ce4a05df6d11208429aa1f2d4cef3f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52bf6787e2ba01e270e37d57b19ce86') in 0.013481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032830 seconds.
+  path: Assets/PandazoleHome/Prefabs/Demo/Pandazole Home Interior.prefab
+  artifactKey: Guid(2cce30e715ba1ef4d82e59cc1fbe3edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Prefabs/Demo/Pandazole Home Interior.prefab using Guid(2cce30e715ba1ef4d82e59cc1fbe3edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb52a60dbfe37444d562b231bb593e61') in 0.068823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.004842 seconds.
+  path: Assets/Scenes/Red.mat
+  artifactKey: Guid(dfec0b7c4bbc0464e82e7992683006e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Red.mat using Guid(dfec0b7c4bbc0464e82e7992683006e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05989d0673766526d3f0d13091f2113') in 0.044116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.314434 seconds.
+  path: Assets/Scenes/Orange.mat
+  artifactKey: Guid(1c155202ec647d043b9edc48eeafa9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Orange.mat using Guid(1c155202ec647d043b9edc48eeafa9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63d00003016f64de0250ac00085f1ef') in 0.011670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1435.163339 seconds.
+  path: Assets/Scenes/glass blue.mat
+  artifactKey: Guid(4eff38970f2fd174dad5b00f0f0b2094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/glass blue.mat using Guid(4eff38970f2fd174dad5b00f0f0b2094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b372da96363e7e82cf8ce9f4d58f5b') in 0.014053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Red.mat
+  artifactKey: Guid(dfec0b7c4bbc0464e82e7992683006e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Red.mat using Guid(dfec0b7c4bbc0464e82e7992683006e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b244199243b766bbec736e27acb146') in 0.011393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Orange.mat
+  artifactKey: Guid(1c155202ec647d043b9edc48eeafa9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Orange.mat using Guid(1c155202ec647d043b9edc48eeafa9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4971fddbedc0518afb91317780d6f977') in 0.011959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.348934 seconds.
+  path: Assets/Scenes/beige.mat
+  artifactKey: Guid(0d4b3d4b635dc5447a30dee23c806464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/beige.mat using Guid(0d4b3d4b635dc5447a30dee23c806464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5988c59ec24eea9bae3c1ec2ee44c811') in 0.022563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.506118 seconds.
+  path: Assets/Scenes/beige.mat
+  artifactKey: Guid(0d4b3d4b635dc5447a30dee23c806464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/beige.mat using Guid(0d4b3d4b635dc5447a30dee23c806464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b125b4a4e396273ea17435194f72bc4') in 0.142902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 218.101753 seconds.
+  path: Assets/Scenes/light wood.mat
+  artifactKey: Guid(3f09983d77c909f47b9cba3e202e01ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/light wood.mat using Guid(3f09983d77c909f47b9cba3e202e01ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2efaff469495cd665894767a908f1d2e') in 0.022872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1717.365881 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Microwave_01.fbx
+  artifactKey: Guid(eaee04afeb7f1af49b2b3dbeb8f8d7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Microwave_01.fbx using Guid(eaee04afeb7f1af49b2b3dbeb8f8d7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60824ee87de447d58653e12f94bb6c2b') in 0.025903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PandazoleHome/Models/Prop_WallCornor_02.fbx
+  artifactKey: Guid(182e24c1bf8b19145b1b6e6c8daa16f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_WallCornor_02.fbx using Guid(182e24c1bf8b19145b1b6e6c8daa16f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64158a2f57072f2e4d6175cb2c6715f6') in 0.019496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PandazoleHome/Models/Prop_WallCShape_05.fbx
+  artifactKey: Guid(0d23426a9136acd40a1b67994f7dc9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_WallCShape_05.fbx using Guid(0d23426a9136acd40a1b67994f7dc9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ac0ad8688984c162ac7523786f6227') in 0.020597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PandazoleHome/Models/Prop_WallCShape_01.fbx
+  artifactKey: Guid(3b2bfd892619935489e4174a94fbc6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_WallCShape_01.fbx using Guid(3b2bfd892619935489e4174a94fbc6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c847631d8b443f0ede30563eb4c262') in 0.018650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Wall_03.fbx
+  artifactKey: Guid(c2f13b18e6dea7f4b802f223befc3a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Wall_03.fbx using Guid(c2f13b18e6dea7f4b802f223befc3a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813f009dddeb9038d279409e04f7befe') in 0.014728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PandazoleHome/Models/Prop_WallCornor_01.fbx
+  artifactKey: Guid(5eb94bf67a0cebc46a6cc953000998d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_WallCornor_01.fbx using Guid(5eb94bf67a0cebc46a6cc953000998d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0458dae0a020435bdce4e629c9a952dc') in 0.017548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PandazoleHome/Models/Prop_WallDecor_01.fbx
+  artifactKey: Guid(82ccefe365c98fc429d778cb11b51dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_WallDecor_01.fbx using Guid(82ccefe365c98fc429d778cb11b51dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19041189dfb0c28634b8344abb4ad833') in 0.017072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PandazoleHome/Models/Prop_WallHanger_02.fbx
+  artifactKey: Guid(f1fa25a2d47512647b691c427cdad919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_WallHanger_02.fbx using Guid(f1fa25a2d47512647b691c427cdad919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b852ecceaca90476fa2a5f068b99815') in 0.015350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PandazoleHome/Models/Prop_WallShelf_01.fbx
+  artifactKey: Guid(4c4fa74be9eb96143b845d5946c9178b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_WallShelf_01.fbx using Guid(4c4fa74be9eb96143b845d5946c9178b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708703cdfa5d9dbf77a5e64f648b69d2') in 0.017702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PandazoleHome/Models/Prop_WallCornor_03.fbx
+  artifactKey: Guid(c5ef87876078c5648b7682b56dabfa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_WallCornor_03.fbx using Guid(c5ef87876078c5648b7682b56dabfa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993dc9593a279184ae616d3a37aafb91') in 0.016117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PandazoleHome/Models/Prop_WallCShape_06.fbx
+  artifactKey: Guid(06f681e28e4414a47ab538fb67cdcdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_WallCShape_06.fbx using Guid(06f681e28e4414a47ab538fb67cdcdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3452ac2452857004ca26cde75a4d787e') in 0.019478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PandazoleHome/Models/Prop_WallCShape_04.fbx
+  artifactKey: Guid(185092e81cfc3f84a9a2a9b9d0d5d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_WallCShape_04.fbx using Guid(185092e81cfc3f84a9a2a9b9d0d5d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4be7e09eba21649f14d2d74673136f6') in 0.018213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PandazoleHome/Models/Prop_WallHanger_03.fbx
+  artifactKey: Guid(a439083c5820b4349b296357cd903ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_WallHanger_03.fbx using Guid(a439083c5820b4349b296357cd903ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c41fe52e6dafcfbacd161d9509f111') in 0.018149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Wall_04.fbx
+  artifactKey: Guid(b69f7286bb6b3f8439afca1e50bd1f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Wall_04.fbx using Guid(b69f7286bb6b3f8439afca1e50bd1f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c423a06af8f6b281bfa18c8abecc97f') in 0.018125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028422 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Wardrobe_01.fbx
+  artifactKey: Guid(31b87ae090cf4f340865b033dff3eaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Wardrobe_01.fbx using Guid(31b87ae090cf4f340865b033dff3eaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab05e3cedec80fd8bb2605d77cdd682') in 0.031551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Wardrobe_04.fbx
+  artifactKey: Guid(d5531a20542466841859a13092afc649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Wardrobe_04.fbx using Guid(d5531a20542466841859a13092afc649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d27c33d4a0959d627a98b09bfd7aade') in 0.036855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 164.465776 seconds.
+  path: Assets/Scenes/Mirror.mat
+  artifactKey: Guid(bbbcab16234ab5146ab7039261285232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror.mat using Guid(bbbcab16234ab5146ab7039261285232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e830688a7d754b999908ee69c8cde9') in 0.011774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.760255 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Materials/01 - Default.mat
+  artifactKey: Guid(74ba61f20f378e64499c86c3b4c887c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Materials/01 - Default.mat using Guid(74ba61f20f378e64499c86c3b4c887c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc585f4a80fb9804f08e29292782aa27') in 0.013575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/017 Santa_claus.fbx
+  artifactKey: Guid(46990cbe35394486b92b5add2ab881a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/017 Santa_claus.fbx using Guid(46990cbe35394486b92b5add2ab881a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95250e8ce06c8f560a99946f2f905f34') in 0.058867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/089 Seal.fbx
+  artifactKey: Guid(72e2f05d49eb24a32bf0cf225b2dafbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/089 Seal.fbx using Guid(72e2f05d49eb24a32bf0cf225b2dafbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfa0a5c5a39d086406062425d1d0bec') in 0.046731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/026 Hand_gloves.fbx
+  artifactKey: Guid(ccc9e696b9ec04dfd9e1acefc38adf5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/026 Hand_gloves.fbx using Guid(ccc9e696b9ec04dfd9e1acefc38adf5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cc7808c74d3661e5944aaab1267397') in 0.050409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/019 Candle.fbx
+  artifactKey: Guid(a6d92a839641846379f6e839bcfe410f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/019 Candle.fbx using Guid(a6d92a839641846379f6e839bcfe410f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba001b1613731b5ef9de2e45103add5f') in 0.043144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_Normal.png
+  artifactKey: Guid(25cf6ea2bfee626498726d049b807b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_Normal.png using Guid(25cf6ea2bfee626498726d049b807b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12489744434018a82851405c2c82e0b8') in 0.030528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/066 Xmas_Girl.fbx
+  artifactKey: Guid(6ad8a122058534d75a111605d13ced17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/066 Xmas_Girl.fbx using Guid(6ad8a122058534d75a111605d13ced17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63eed313e3f343cd3f63bcbdaf021270') in 0.067108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/091 Black_Hat.fbx
+  artifactKey: Guid(ffa40e2604cdf451a86322bc02f5f2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/091 Black_Hat.fbx using Guid(ffa40e2604cdf451a86322bc02f5f2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8382a0fe941b739efc5300de2f8b965f') in 0.038249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_Normal.png
+  artifactKey: Guid(bd2b1ecd87a65b34b8896ba687902cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_Normal.png using Guid(bd2b1ecd87a65b34b8896ba687902cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbc421def4a883ea7b981527af79c96') in 0.015012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_AlbedoTransparency.png
+  artifactKey: Guid(d1121a1458949b341967a096552d4fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_AlbedoTransparency.png using Guid(d1121a1458949b341967a096552d4fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbb1a874812c85fddc838eef1d51c3d') in 0.012604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_AO.png
+  artifactKey: Guid(7ee583edf3c5c8f4cbe8ec132bb8730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_AO.png using Guid(7ee583edf3c5c8f4cbe8ec132bb8730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9951a2924e9510b73a1fbb48e3e78b') in 0.012872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_AO.png
+  artifactKey: Guid(0ffb81b0528c7604ab017e61045f45f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_AO.png using Guid(0ffb81b0528c7604ab017e61045f45f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13685a3e47c79fae37061a3512317058') in 0.009429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_AlbedoTransparency.png
+  artifactKey: Guid(056225c9a13957f47862151fdd5a4fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_AlbedoTransparency.png using Guid(056225c9a13957f47862151fdd5a4fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81a4015452ec839a963f14360598c26') in 0.012834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_Normal.png
+  artifactKey: Guid(7150f51fa092a5a44a2714c16a5c407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_Normal.png using Guid(7150f51fa092a5a44a2714c16a5c407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e5c628be0f328dfafc93f730c3677d') in 0.014831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/077 Xmas_Girl.fbx
+  artifactKey: Guid(4c8eaf995f7374aa9beb092b8d79008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/077 Xmas_Girl.fbx using Guid(4c8eaf995f7374aa9beb092b8d79008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e77fb2297cc998533426d7a45e217d') in 0.073940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/100 Snow_Ball.prefab
+  artifactKey: Guid(bb195bc7f38c54465a0dd8ff9742893b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/100 Snow_Ball.prefab using Guid(bb195bc7f38c54465a0dd8ff9742893b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbb31359c3f73d76d6a3415f8f18fa1') in 0.017045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_AO.png
+  artifactKey: Guid(49c6e799cd62caa4e9a3c482f5b1c996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_AO.png using Guid(49c6e799cd62caa4e9a3c482f5b1c996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18dc9713a6dcd273e133407b2f976cc3') in 0.008209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_AlbedoTransparency.png
+  artifactKey: Guid(ad1524073e0de5641bbe2930971f427b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_AlbedoTransparency.png using Guid(ad1524073e0de5641bbe2930971f427b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26820ee69109408f15496fdb9bdf2a75') in 0.011369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/007 Santa_Claus_Hat.fbx
+  artifactKey: Guid(9a8a0504e95704f838d26787e97848f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/007 Santa_Claus_Hat.fbx using Guid(9a8a0504e95704f838d26787e97848f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbba307deeb4d654089cb008988f179') in 0.040523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/061 Santa_claus.fbx
+  artifactKey: Guid(fd34dbe4841ef4278a00f6a18d9dfb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/061 Santa_claus.fbx using Guid(fd34dbe4841ef4278a00f6a18d9dfb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2a1d2883f93e4a66c5e6b153066495') in 0.080460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_AO.png
+  artifactKey: Guid(1091c73cfaecb1e41a7f2d66b5548365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_AO.png using Guid(1091c73cfaecb1e41a7f2d66b5548365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6489e006815002f02aac42452f119ee') in 0.008852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_SpecularSmoothness.png
+  artifactKey: Guid(ed800070650b895418e86461fd5abc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_SpecularSmoothness.png using Guid(ed800070650b895418e86461fd5abc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a992f479f51ad38775f98e6ec70c70b9') in 0.014678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_AO.png
+  artifactKey: Guid(bd22af204859c274e950d2a4e5ef4dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_AO.png using Guid(bd22af204859c274e950d2a4e5ef4dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8218299e5b393f3cf72ba0f969d1167c') in 0.012246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_SpecularSmoothness.png
+  artifactKey: Guid(6a642236548117b4ebe108d79a2e96af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_SpecularSmoothness.png using Guid(6a642236548117b4ebe108d79a2e96af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d64e0f2125f404919bdaa535e86d8fe') in 0.015308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_SpecularSmoothness.png
+  artifactKey: Guid(f36e85f9557552f43a217816965c8fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_SpecularSmoothness.png using Guid(f36e85f9557552f43a217816965c8fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a87b94e910e3cd54f50787906688480') in 0.012868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/006 Santa_Claus_Hat.fbx
+  artifactKey: Guid(a6618e369c96a4bfeb3e1ca6614a0d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/006 Santa_Claus_Hat.fbx using Guid(a6618e369c96a4bfeb3e1ca6614a0d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa4d3f4dee4d5932497553461d97899') in 0.034054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/015 Garland.fbx
+  artifactKey: Guid(5b1b57193f6544575b41c39c29d3d0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/015 Garland.fbx using Guid(5b1b57193f6544575b41c39c29d3d0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362a7673da352fe2253d028284024637') in 0.075448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_SpecularSmoothness.png
+  artifactKey: Guid(4f86f5849b7bb684ea823025aee879f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_SpecularSmoothness.png using Guid(4f86f5849b7bb684ea823025aee879f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cbb0137c9f3f9f0e12b7d6ee9c9f30') in 0.015865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_AlbedoTransparency.png
+  artifactKey: Guid(5a6ce0321a333e445b92d1c0508bf246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_AlbedoTransparency.png using Guid(5a6ce0321a333e445b92d1c0508bf246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e134b73b5f07e1e6f277ccc4fd0154') in 0.011942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_AlbedoTransparency.png
+  artifactKey: Guid(c2eace534e1967048bf8fdc65389e7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_AlbedoTransparency.png using Guid(c2eace534e1967048bf8fdc65389e7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224de5d9d3a07d92252333647cfffcf2') in 0.012036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Scenes/Demo/Lightmap-1_comp_light.exr
+  artifactKey: Guid(7b5672ed77821cb4ab3b7ed1d9ffb27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Scenes/Demo/Lightmap-1_comp_light.exr using Guid(7b5672ed77821cb4ab3b7ed1d9ffb27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afec00bc4f4fabdb129f7fe9bf9774b1') in 0.025410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Scenes/Demo/LightingData.asset
+  artifactKey: Guid(a3ae8d0b1761e714d96b4d94f5328aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Scenes/Demo/LightingData.asset using Guid(a3ae8d0b1761e714d96b4d94f5328aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbffbab08c4f23ba6cb8bf8f645ef39') in 0.009781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Scenes/Demo/Lightmap-0_comp_dir.png
+  artifactKey: Guid(015029d2808821445b3b4faa32761c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Scenes/Demo/Lightmap-0_comp_dir.png using Guid(015029d2808821445b3b4faa32761c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a9a66de86633eca772d802c0adef2c') in 0.013404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_AO.png
+  artifactKey: Guid(f46c2010e4a65de44aa05e7a78cec7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_AO.png using Guid(f46c2010e4a65de44aa05e7a78cec7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed0e065df0cff04f35122a5e0468f87') in 0.013555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/063 Xmas_Girl.fbx
+  artifactKey: Guid(41ae0862367f643c5a9b9b4d6f15897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/063 Xmas_Girl.fbx using Guid(41ae0862367f643c5a9b9b4d6f15897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c18d3cb79051e2ae493d386fa57a54') in 0.078103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_AO.png
+  artifactKey: Guid(c1eb8cf5ed7dc6c4eaefcfc343ad8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_AO.png using Guid(c1eb8cf5ed7dc6c4eaefcfc343ad8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291181f1d8666ca14e70e8135d9421a2') in 0.013806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/097 Candle.fbx
+  artifactKey: Guid(38522033f23b847b5b8ec806986898db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/097 Candle.fbx using Guid(38522033f23b847b5b8ec806986898db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d6d9993fad45c15a3377a89e1635f3') in 0.034564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.220429 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/070 Buggy.fbx
+  artifactKey: Guid(da60f1e1bae284f5a95df1ab7cbbcdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/070 Buggy.fbx using Guid(da60f1e1bae284f5a95df1ab7cbbcdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d74245d0e3dd17b16f7e1b4489c1f81') in 0.069297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/093 Bucket.fbx
+  artifactKey: Guid(023bec0a17bc445bb90f2e6f23177347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/093 Bucket.fbx using Guid(023bec0a17bc445bb90f2e6f23177347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4237e3845299b32620faa7acaa983b64') in 0.041956 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

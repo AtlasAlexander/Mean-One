@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":0.5761876106262207,"y":4.320528030395508,"z":2.261932849884033},"rotation":{"x":-0.004334150347858667,"y":-0.9956327676773071,"z":0.07511730492115021,"w":-0.05663936957716942},"size":0.9822872281074524,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":40.944679260253909,"y":-12.181770324707032,"z":16.535676956176759},"rotation":{"x":0.23982304334640504,"y":0.5734862089157105,"z":-0.1804250180721283,"w":0.7622718811035156},"size":19.953495025634767,"orthographic":false}
+>>>>>>> MacksBranch

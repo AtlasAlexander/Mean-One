@@ -1,6 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Telemetry", "Unity.Services.Core.Telemetry.csproj", "{9e9ec393-7a53-3367-9253-2d28e8e87f93}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{1e1daded-a01e-39c6-61c2-2da4cc010c97}"
@@ -66,6 +67,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Settings.Editor", "Unity.Settings.Editor.csproj", "{0d261fa2-ba7d-c249-9f22-444f0d1b1c33}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Services.Core.Configuration.Editor", "Unity.Services.Core.Configuration.Editor.csproj", "{db6e59d3-f44d-9e86-59a3-056af5959d69}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{6eb364db-826c-d8d0-b26f-ecb16b90b336}"
+>>>>>>> MacksBranch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ProBuilder.AddOns.Editor", "Unity.ProBuilder.AddOns.Editor.csproj", "{580fe681-c037-bf5d-e53f-a13daf42c636}"
 EndProject
@@ -74,6 +78,7 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
 		{9e9ec393-7a53-3367-9253-2d28e8e87f93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9e9ec393-7a53-3367-9253-2d28e8e87f93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1e1daded-a01e-39c6-61c2-2da4cc010c97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -142,6 +147,10 @@ Global
 		{db6e59d3-f44d-9e86-59a3-056af5959d69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{580fe681-c037-bf5d-e53f-a13daf42c636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{580fe681-c037-bf5d-e53f-a13daf42c636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+=======
+		{6eb364db-826c-d8d0-b26f-ecb16b90b336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6eb364db-826c-d8d0-b26f-ecb16b90b336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+>>>>>>> MacksBranch
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

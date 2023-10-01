@@ -9841,6 +9841,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_Console_02
       objectReference: {fileID: 0}
+    - target: {fileID: 7296749833786755532, guid: 6e895ac7314252246a78dd4d457660a8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     - target: {fileID: 7928749858745242486, guid: 6e895ac7314252246a78dd4d457660a8,
         type: 3}
       propertyPath: m_RootOrder
@@ -15424,7 +15429,7 @@ PrefabInstance:
     - target: {fileID: 6279549868151239179, guid: 052a289b1639e411badc15e1262f8875,
         type: 3}
       propertyPath: m_TagString
-      value: Stealable
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 6279549868151598635, guid: 052a289b1639e411badc15e1262f8875,
         type: 3}
@@ -18195,7 +18200,7 @@ PrefabInstance:
     - target: {fileID: 4601314828097329498, guid: 8a7716b14ff004f13a8c0121da35657f,
         type: 3}
       propertyPath: m_TagString
-      value: Stealable
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 4601314828097488250, guid: 8a7716b14ff004f13a8c0121da35657f,
         type: 3}
@@ -18356,7 +18361,7 @@ PrefabInstance:
     - target: {fileID: 1082949031446351698, guid: df20497cc0b824685b698fef1a920408,
         type: 3}
       propertyPath: m_TagString
-      value: Stealable
+      value: Interactable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -22826,7 +22831,7 @@ PrefabInstance:
     - target: {fileID: 9096568316586580962, guid: 09c0d16b15be9476d8fa22a648e87713,
         type: 3}
       propertyPath: m_TagString
-      value: Stealable
+      value: Interactable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -28473,7 +28478,7 @@ PrefabInstance:
     - target: {fileID: 5383322966512213757, guid: daa5efe5de0c842f592546f440921e4c,
         type: 3}
       propertyPath: m_TagString
-      value: Stealable
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 5383322966512501469, guid: daa5efe5de0c842f592546f440921e4c,
         type: 3}

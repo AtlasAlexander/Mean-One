@@ -42,8 +42,8 @@
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor\Collaborate\Components\Menus\FloatingMenuItem.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor\Collaborate\Views\Adapters\IAdapter.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor\Collaborate\EditorGameService\SettingsProviderVisuals\LearnMoreVisualHelper.cs" />
-     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor\Collaborate\Components\IconButton.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor\Collaborate\Components\SearchBar.cs" />
+     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor\Collaborate\Components\IconButton.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor\Collaborate\EditorGameService\SettingsProviderVisuals\EnabledVisuals.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor\Collaborate\Utilities\Threading.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.17.2\Editor\Collaborate\Views\MainPageView.cs" />
@@ -846,6 +846,10 @@
     <ProjectReference Include="Unity.Services.Core.Editor.csproj">
       <Project>{66ee8ddd-bb29-cacd-f422-8d2b0dd6aa07}</Project>
       <Name>Unity.Services.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Settings.Editor.csproj">
+      <Project>{0d261fa2-ba7d-c249-9f22-444f0d1b1c33}</Project>
+      <Name>Unity.Settings.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
       <Project>{1e1daded-a01e-39c6-61c2-2da4cc010c97}</Project>

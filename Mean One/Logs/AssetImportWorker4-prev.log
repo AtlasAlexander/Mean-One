@@ -1,0 +1,318 @@
+Using pre-set license
+Built from '2022.1/release' branch; Version is '2022.1.21f1 (9ac1ff5ca45b) revision 10142207'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 32533 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/AlexA/Documents/School/Unity/Mean One/Mean One
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+60318
+Successfully changed project path to: C:/Users/AlexA/Documents/School/Unity/Mean One/Mean One
+C:/Users/AlexA/Documents/School/Unity/Mean One/Mean One
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 54.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.21f1 (9ac1ff5ca45b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/AlexA/Documents/School/Unity/Mean One/Mean One/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006932 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.683 seconds
+Domain Reload Profiling:
+	ReloadAssembly (683ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (479ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (139ms)
+				TypeCache.Initialize (138ms)
+					TypeCache.ScanAssembly (136ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003892 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1007ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (755ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+				TypeCache.Initialize (209ms)
+					TypeCache.ScanAssembly (206ms)
+				ResolveRequiredComponents (3ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (364ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (125.1 KB). Loaded Objects now: 2555.
+Memory consumption went from 343.1 MB to 343.0 MB.
+Total: 2.481200 ms (FindLiveObjects: 0.161200 ms CreateObjectMapping: 0.085300 ms MarkObjects: 2.121900 ms  DeleteObjects: 0.112100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11423.793150 seconds.
+  path: Assets/PandazoleHome/Models/Prop_AC.fbx
+  artifactKey: Guid(a849af36f4559544585d81fa553c1e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_AC.fbx using Guid(a849af36f4559544585d81fa553c1e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8290aedf9e8151c7353200dd02c2a027') in 0.190879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Bed_06.fbx
+  artifactKey: Guid(70081d466ad39314d95ac44973f01c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Bed_06.fbx using Guid(70081d466ad39314d95ac44973f01c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685ddac30b8e0abff65ddf5391df4839') in 0.020576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Bed_02.fbx
+  artifactKey: Guid(be20648d38b9cec41b024978fe018f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Bed_02.fbx using Guid(be20648d38b9cec41b024978fe018f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458050d52a447747edf961ea576853d8') in 0.020173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Beauty_07.fbx
+  artifactKey: Guid(44be0580189647d41b01edeb1cad9f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Beauty_07.fbx using Guid(44be0580189647d41b01edeb1cad9f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54097107c23141c9d88b543e4d136977') in 0.018437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PandazoleHome/Models/Prop_BagChair_04.fbx
+  artifactKey: Guid(fa0b25b937722194484bc1f6ee2e4522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_BagChair_04.fbx using Guid(fa0b25b937722194484bc1f6ee2e4522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c297b429bbf1798c2ffa01d27b50af7d') in 0.022905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Bath_01.fbx
+  artifactKey: Guid(8ac1914d3ff51d642a89ad541bc86a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Bath_01.fbx using Guid(8ac1914d3ff51d642a89ad541bc86a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b1a53b2a24142722dc25df53893872') in 0.020598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Bed_05.fbx
+  artifactKey: Guid(017e3451612d9ca41a1189fb1377da54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Bed_05.fbx using Guid(017e3451612d9ca41a1189fb1377da54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50e61c3bdc92ac09f1f5872c3addad6') in 0.017999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Beauty_10.fbx
+  artifactKey: Guid(ba3b347227504cf4da00c829987ea09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Beauty_10.fbx using Guid(ba3b347227504cf4da00c829987ea09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a1d20995c2f51cfa2f64e57b2451c8') in 0.018292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Ball_04.fbx
+  artifactKey: Guid(22e13c71fd94a6b4d9af4cbfd60c09ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Ball_04.fbx using Guid(22e13c71fd94a6b4d9af4cbfd60c09ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdaf25a8e3c8dc3b7cf967f3abb7526') in 0.021324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Beauty_08.fbx
+  artifactKey: Guid(f0879b6780845364383711cb8b104c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Beauty_08.fbx using Guid(f0879b6780845364383711cb8b104c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8314f591a229918caf2022afb9811cc') in 0.020727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PandazoleHome/Models/Prop_BagChair_03.fbx
+  artifactKey: Guid(2895fea8e31738d41a3e914f3f3ddeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_BagChair_03.fbx using Guid(2895fea8e31738d41a3e914f3f3ddeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9c7fd7793a8e1783c5cfaba8edd759') in 0.024634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Bed_04.fbx
+  artifactKey: Guid(2a4f2ab031466e748a752d23e4fb7c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Bed_04.fbx using Guid(2a4f2ab031466e748a752d23e4fb7c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c98c03a0e30a119025cc7d75e99c9e') in 0.021803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PandazoleHome/Models/Prop_Beauty_04.fbx
+  artifactKey: Guid(15918ce98253a3d4e81a8a4f639d10f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandazoleHome/Models/Prop_Beauty_04.fbx using Guid(15918ce98253a3d4e81a8a4f639d10f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6bdfb72a829cfbc96e74fe145e145b') in 0.022311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.359177 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/021 Teapot.fbx
+  artifactKey: Guid(9275d63a2ea1d4409998c224e0f9b2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/021 Teapot.fbx using Guid(9275d63a2ea1d4409998c224e0f9b2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8546594d8c20b634b996a370a4d675') in 0.045920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 601.238117 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/031 Xmas_Crackers.fbx
+  artifactKey: Guid(acb83af9195d7416faf206710fdc327e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/031 Xmas_Crackers.fbx using Guid(acb83af9195d7416faf206710fdc327e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b5e05ef3493c1394c0028c1762f921') in 0.050127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/037 Christmas_Socks.fbx
+  artifactKey: Guid(6c49b1040a9cf43899f8f6dcfb89218d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/037 Christmas_Socks.fbx using Guid(6c49b1040a9cf43899f8f6dcfb89218d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6930b90bccbcb20b1d659c1148259f14') in 0.032446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/042 Candy.fbx
+  artifactKey: Guid(bbb8d9c3f007a403f9f347481eaeb698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/042 Candy.fbx using Guid(bbb8d9c3f007a403f9f347481eaeb698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28595f018175456c1b347f80cb22ace') in 0.026704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/038 Christmas_Socks.fbx
+  artifactKey: Guid(482eb4f61c7d442949a33189c9b98b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/038 Christmas_Socks.fbx using Guid(482eb4f61c7d442949a33189c9b98b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21466f02410d81a6317601a0004dbe8f') in 0.027633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/034 Snow_man.fbx
+  artifactKey: Guid(af7a64c1306414117905669e3806f58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/034 Snow_man.fbx using Guid(af7a64c1306414117905669e3806f58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de7d02da238228ba1f233bd1519e2f8') in 0.045213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/050 Xmas_Tree.fbx
+  artifactKey: Guid(99119c8e3b5a94633a02dc3f0605999e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/050 Xmas_Tree.fbx using Guid(99119c8e3b5a94633a02dc3f0605999e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb02accf108580362f32b728e8482e7') in 0.088272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/040 Xmas_Bell.fbx
+  artifactKey: Guid(f5147060c1d1549eaa0c8c9c919f29d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/040 Xmas_Bell.fbx using Guid(f5147060c1d1549eaa0c8c9c919f29d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b990832b8e4bfaeb711337f771b90d') in 0.030666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/045 Xmas_Tree.fbx
+  artifactKey: Guid(6270e91a63ae8440390b82c0a1dbd4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/045 Xmas_Tree.fbx using Guid(6270e91a63ae8440390b82c0a1dbd4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9080f76f6ae2f283610a615cf7fa48d2') in 0.085778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/036 Xmas_Tree.fbx
+  artifactKey: Guid(11f01bd0e20524ec0b9c86dab67c6d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/036 Xmas_Tree.fbx using Guid(11f01bd0e20524ec0b9c86dab67c6d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4531be576fb4bc9e2ae21e1bc53e25') in 0.061688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/049 Xmas_Tree.fbx
+  artifactKey: Guid(a1ee1886880eb44c2953fdb41d502c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/049 Xmas_Tree.fbx using Guid(a1ee1886880eb44c2953fdb41d502c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53718acd979004633df7168119a08afd') in 0.078667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX/047 Xmas_Tree.fbx
+  artifactKey: Guid(ca38ea13634474659a08f213adb81ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX/047 Xmas_Tree.fbx using Guid(ca38ea13634474659a08f213adb81ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ed874098b1a799ca483bbeed5bf430') in 0.068896 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

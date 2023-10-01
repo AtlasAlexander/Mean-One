@@ -8,12 +8,19 @@ public class PickupController : MonoBehaviour
     private GameObject heldObject;
     private GameObject currentlyLookedAtObject; // Store the currently looked at object
 
+    private BagSound bagSound;
+    private WinLose winLose;
+    private Escape escape;
+
     [SerializeField]
     private float pickupDistance = 3f;
 
     void Start()
     {
         mainCamera = Camera.main;
+        bagSound = GetComponent<BagSound>();
+        winLose = GetComponent<WinLose>();
+        escape = GetComponent<Escape>();
     }
 
     void Update()
@@ -50,6 +57,30 @@ public class PickupController : MonoBehaviour
                 // Store the currently looked at object
                 currentlyLookedAtObject = hitObject;
             }
+
+            // Check if the hit object is interactable
+            if (hitObject.CompareTag("Escape") && winLose.hasCollectedAll)
+            {
+                // Display a prompt to pick up the object
+                // You can implement this UI element yourself
+
+                // Check for player input to pick up the object, for example, the 'E' key
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    // Call a method to handle the pickup (you can implement this method)
+                    escape.EscapeHouse(true);
+                }
+
+                Outline outline = hitObject.GetComponent<Outline>();
+                if (outline != null)
+                {
+                    outline.enabled = true;
+                }
+
+                currentlyLookedAtObject = hitObject;
+            }
+
+
         }
         else
         {
@@ -82,6 +113,10 @@ public class PickupController : MonoBehaviour
 
         // Optionally, hide the object visually
         heldObject.SetActive(false);
+
+        bagSound.PlayBagSound(bagSound.bagSounds);
+        winLose.AddStolen();
+        
     }
 
     void DropObject()
@@ -90,11 +125,7 @@ public class PickupController : MonoBehaviour
         // For example, enabling physics, unparenting, setting its position, etc.
 
         // Show the object again
-        if (heldObject != null)
-        {
-            heldObject.SetActive(true);
-            heldObject = null;
-        }
+        Debug.Log("dropped object script removed by Macks");
     }
 }
 
